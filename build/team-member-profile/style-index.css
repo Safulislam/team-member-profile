@@ -1,0 +1,105 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/team-member-profile/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-team-member-profile {
+  border: none;
+  text-align: center;
+  background: transparent;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.wp-block-create-block-team-member-profile .team-member-name {
+  margin: 10px 0 10px 0;
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  text-align: center;
+  color: inherit;
+}
+.wp-block-create-block-team-member-profile .team-member-position {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  text-align: center;
+  color: inherit;
+}
+.wp-block-create-block-team-member-profile .team-member-social-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+.wp-block-create-block-team-member-profile .team-member-social-links li {
+  margin: 0;
+  padding: 0;
+}
+.wp-block-create-block-team-member-profile .team-member-social-links li a {
+  text-decoration: none;
+  color: inherit;
+}
+.wp-block-create-block-team-member-profile .team-member-img-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.wp-block-create-block-team-member-profile .team-member-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.team-member-profile.is-style-card {
+  /* Card style */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-profile.is-style-list {
+  /* List style */
+  display: flex;
+  gap: 30px;
+  background: transparent;
+  border: none;
+}
+.team-member-profile.is-style-list .team-member-name,
+.team-member-profile.is-style-list .team-member-position {
+  text-align: left;
+}
+.team-member-profile.is-style-list .team-member-social-links {
+  justify-content: flex-start;
+}
+
+.team-member-profile.is-style-minimal {
+  /* Minimal style */
+  text-align: center;
+  padding: 10px;
+  background: none;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

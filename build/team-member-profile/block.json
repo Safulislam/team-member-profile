@@ -1,0 +1,67 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/team-member-profile",
+  "version": "0.1.0",
+  "title": "Team Member Profile",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A customizable team member profile block.",
+  "example": {},
+  "supports": {
+    "color": {
+      "text": true,
+      "background": true
+    }
+  },
+  "textdomain": "team-member-profile",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "backgroundColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "styleVariation": {
+      "type": "string",
+      "default": "card"
+    },
+    "teamMemberName": {
+      "type": "string",
+      "default": "John Doe"
+    },
+    "teamMemberPosition": {
+      "type": "string",
+      "default": "Software Engineer"
+    },
+    "teamMemberImageId": {
+      "type": "number"
+    },
+    "teamMemberImageUrl": {
+      "type": "string"
+    },
+    "teamSocialLinks": {
+      "type": "array",
+      "default": [
+        {
+          "link": "https://www.facebook.com/",
+          "icon": "facebook"
+        },
+        {
+          "link": "https://www.twitter.com/",
+          "icon": "twitter"
+        },
+        {
+          "link": "https://www.linkedin.com/",
+          "icon": "linkedin"
+        }
+      ]
+    }
+  }
+}
